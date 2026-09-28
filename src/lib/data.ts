@@ -14,7 +14,7 @@ export const PORTFOLIO_DATA = {
   name: "Dimas Tadeo Prayoga",
   role: "Fullstack Developer",
   bio: "Mengembangkan aplikasi web modern, performan, dan responsif. Berfokus pada Next.js di frontend dan Python di backend.",
-  avatarUrl: "https://github.com/shadcn.png",
+  avatarUrl: "/foto-diri.png",
   socials: {
     github: "https://github.com/dimastadeoo",
     linkedin: "https://linkedin.com/in/dimastadeoo",
@@ -31,7 +31,7 @@ export const PORTFOLIO_DATA = {
   projects: [
     {
       id: "1",
-      title: "E-Shop",
+      title: "Online Shop E-Shop",
       description: "Aplikasi Belanja Online",
       tags: ["React.js", "Tailwind CSS", "Redux"],
       githubUrl: "https://github.com/dimastadeoo/koda-b8-react",
@@ -40,11 +40,12 @@ export const PORTFOLIO_DATA = {
     },
     {
       id: "2",
-      title: "Task Management App",
-      description: "Aplikasi produktivitas untuk mengelola tugas harian dengan fitur drag-and-drop.",
-      tags: ["React", "TypeScript", "Tailwind"],
-      githubUrl: "https://github.com",
-      imageUrl: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80",
+      title: "Sticky Note",
+      description: "Aplikasi untuk membuat catatan harian",
+      tags: ["React.js", "Tailwind CSS", "Redux", "Express.js", "postgres"],
+      githubUrl: "https://github.com/dimastadeoo/koda-b8-backendjs2",
+      demoUrl: "https://sticky-note-dimastadeoo.vercel.app",
+      imageUrl: "/sticky-note.png",
     },
   ] as Project[],
 };
