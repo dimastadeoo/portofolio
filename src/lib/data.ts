@@ -13,7 +13,11 @@ export interface Project {
 export const PORTFOLIO_DATA = {
   name: "Dimas Tadeo Prayoga",
   role: "Fullstack Developer",
-  bio: "Mengembangkan aplikasi web modern, performan, dan responsif. Berfokus pada Next.js di frontend dan Python di backend.",
+  bio: `
+  Full Stack Web Developer dengan pengalaman praktis dalam membangun aplikasi web yang handal dan scalable. Terbiasa mengembangkan frontend menggunakan React.js, Redux Toolkit, dan Tailwind CSS, serta backend berkinerja tinggi menggunakan Golang (Gin Framework), Express dan PostgreSQL.
+
+  Memiliki keahlian dalam perancangan RESTful API, penerapan clean architecture, dan autentikasi JWT. Berpengalaman dalam praktik DevOps seperti penggunaan Docker, alur CI/CD, serta cloud deployment di Netlify dan Vercel. Selain pengembangan web, juga memiliki latar belakang di bidang IT Support dan konfigurasi jaringan MikroTik. Berkomitmen untuk selalu menulis clean code yang mudah dirawat (maintainable) serta terus meningkatkan keahlian melalui penerapan best practices pada proyek nyata.
+  `,
   avatarUrl: "/foto-diri.png",
   socials: {
     github: "https://github.com/dimastadeoo",
